@@ -11,12 +11,12 @@
 }
 
 @mixin responsive($device) {
-  @if $device = xs {
+  @if $device == xs {
     @include xs {
       @content;
     }
   }
-  @if $device = xl {
+  @if $device == xl {
     @include xl {
       @content;
     }
