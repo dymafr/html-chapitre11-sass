@@ -45,12 +45,6 @@ body {
       background: red; } }
   @media only screen and (min-width: 1000px) {
     .card {
-      background: red; } }
-  @media only screen and (max-width: 500px) {
-    .card {
-      background: orange; } }
-  @media only screen and (min-width: 1000px) {
-    .card {
       background: orange; } }
   .card h1 {
     font-size: 1.5rem;
@@ -59,9 +53,6 @@ body {
     .card h1 span {
       color: green; }
       @media only screen and (max-width: 500px) {
-        .card h1 span {
-          color: red; } }
-      @media only screen and (min-width: 1000px) {
         .card h1 span {
           color: red; } }
   .card .text {
