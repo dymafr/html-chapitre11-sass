@@ -1,4 +1,4 @@
-.btn-warning, .btn-primary, .btn-danger, .btn-default {
+.btn-default, .btn-danger, .btn-primary, .btn-warning {
   border: 0;
   border-radius: 5px;
   padding: 1rem 2rem;
@@ -6,28 +6,35 @@
   background: #333;
   color: white;
   font-weight: 700;
-  cursor: pointer; }
-  .btn-warning:hover, .btn-primary:hover, .btn-danger:hover, .btn-default:hover {
-    opacity: 0.8; }
+  cursor: pointer;
+}
+.btn-default:hover, .btn-danger:hover, .btn-primary:hover, .btn-warning:hover {
+  opacity: 0.8;
+}
 
 .btn-warning {
-  background: orange; }
+  background: orange;
+}
 
 .btn-primary {
-  background: blue; }
+  background: blue;
+}
 
 .btn-danger {
-  background: red; }
+  background: red;
+}
 
 .btn-default {
-  background: #bbb; }
+  background: #bbb;
+}
 
 body {
   margin: 0;
   font-family: "Courier New", Courier, monospace;
   background: #eee;
   height: 100vh;
-  position: relative; }
+  position: relative;
+}
 
 .card {
   box-sizing: border-box;
@@ -39,27 +46,41 @@ body {
   padding: 2rem;
   position: absolute;
   left: calc(50% - 250px);
-  top: calc(50% - 150px); }
-  @media only screen and (max-width: 500px) {
-    .card {
-      background: red; } }
-  @media only screen and (min-width: 1000px) {
-    .card {
-      background: orange; } }
-  .card h1 {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #eee; }
-    .card h1 span {
-      color: green; }
-      @media only screen and (max-width: 500px) {
-        .card h1 span {
-          color: red; } }
-  .card .text {
-    color: #333; }
-  .card ul {
-    padding-left: 0;
-    list-style: none; }
-    .card ul li {
-      display: inline-block;
-      padding: 1rem 2rem; }
+  top: calc(50% - 150px);
+}
+@media only screen and (max-width: 500px) {
+  .card {
+    background: red;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .card {
+    background: orange;
+  }
+}
+.card h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.card h1 span {
+  color: green;
+}
+@media only screen and (max-width: 500px) {
+  .card h1 span {
+    color: red;
+  }
+}
+.card .text {
+  color: #333;
+}
+.card ul {
+  padding-left: 0;
+  list-style: none;
+}
+.card ul li {
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
