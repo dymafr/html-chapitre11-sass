@@ -1,8 +1,8 @@
-@import "variables";
-@import "buttons";
-@import "mixins";
-@import "media";
-@import "functions";
+@use "variables" as *;
+@use "buttons" as *;
+@use "mixins" as *;
+@use "media" as *;
+@use "functions" as *;
 
 body {
   margin: 0;
@@ -21,7 +21,7 @@ body {
     background: orange;
   }
   width: 500px;
-  height: 300px;
+  height: 400px;
   border: 1px solid #ccc;
   background: white;
   border-radius: 30px;

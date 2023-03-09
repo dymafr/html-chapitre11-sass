@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @function centerAbsolute($size) {
-  @return calc(50% - #{$size / 2});
+  @return calc(50% - math.div($size, 2));
 }
