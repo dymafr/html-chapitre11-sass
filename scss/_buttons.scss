@@ -1,7 +1,4 @@
 %btn {
-  &:hover {
-    opacity: 0.8;
-  }
   border: 0;
   border-radius: 5px;
   padding: 1rem 2rem;
@@ -10,6 +7,10 @@
   color: white;
   font-weight: 700;
   cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .btn-warning {
